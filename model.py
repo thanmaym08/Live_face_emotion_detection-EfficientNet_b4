@@ -10,3 +10,6 @@ class EmotionEfficientNet(nn.Module):
 
     def forward(self, x):
         return self.model(x)
+
+def get_model(num_classes):
+    return EmotionEfficientNet(num_classes)

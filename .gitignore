@@ -10,8 +10,8 @@ env/
 venv/
 
 # Ignore model checkpoints
-*.pth
-*.pt
+#*.pth
+#*.pt
 
 # Ignore dataset folders
 data/
